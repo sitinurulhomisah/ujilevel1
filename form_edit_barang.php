@@ -16,7 +16,7 @@ include 'koneksi.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>EDIT DATA</title>
 
     <link rel="stylesheet" href="css/form_edit_barang.css">
     <link rel="stylesheet" href="css/dashboard.css">
