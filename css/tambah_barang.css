@@ -1,0 +1,85 @@
+:root {
+    --accent : #8E3200;
+    --primary : #FFEBC1;
+    --secondary :#967E76;
+    --text : #5C5C5C;
+}
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* form */
+
+.form {
+    background-color: var(--primary);
+    width: 80%;
+    height: 100vh;
+    overflow: hidden;
+}
+h3 {
+    color: var(--accent);
+    height: 10%;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.bg {
+    background-color: var(--accent);
+    border-radius: 40px;
+    width: 80%;
+    height: 70vh;
+    margin: 2% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+table {
+    font-size: 30px;
+    color: var(--primary);
+    font-weight: 700;
+}
+table input,
+table select {
+    background-color: var(--primary);
+    text-align: center;
+    color: var(--accent);
+    font-weight: 500;
+    border: none;
+}
+.submit {
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+.submit:hover {
+    background-color: #ffebc1bb;
+    color: var(--accent);
+}
+.kotak-img {
+    margin-left: 60px;
+}
+.kotak-img .border {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border img {
+    width: 225px;
+    border-radius: 10px;
+}

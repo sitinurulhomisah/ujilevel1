@@ -1,0 +1,88 @@
+:root {
+    --accent : #8E3200;
+    --primary : #FFEBC1;
+    --secondary :#967E76;
+    --text : #5C5C5C;
+}
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary);
+}
+
+
+.form {
+    width: 80%;
+    height: 100vh;
+}
+.bg-1 {
+    background-color: var(--accent);
+    box-shadow: #00000029 0px 3px 6px, #0000003b 0px 3px 6px;
+    width: 85%;
+    height: 100px;
+    margin: 3% 8%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;   
+}
+.bg-1 h3 {
+    color: var(--primary);
+    font-size: 50px;
+}
+.bg-2 {
+    background-color: var(--accent);
+    opacity: 80%;
+    box-shadow: #00000029 0px 3px 6px, #0000003b 0px 3px 6px;
+    width: 85%;
+    height: 600px;
+    margin: 3% 8%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg2-img img {
+    width: 90%;
+    margin-left: -10px;
+}
+table {
+    margin-left: -50px;
+}
+tr {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--primary);
+}
+td input,
+td select {
+    background-color: var(--primary);
+    border: none;
+    color: var(--accent);
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.submit {
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 90%;
+}
+.submit:hover {
+    background-color: var(--primary);
+    border: 3px solid var(--primary);
+    color: var(--accent);
+    border-radius: 10px;
+}

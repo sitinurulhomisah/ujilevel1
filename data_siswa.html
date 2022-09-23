@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMBAH BARU</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/tambah.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/203b2af49c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- dashboard -->
+    <div class="dashboard">
+        <div class="logo">
+            <p>INVENTORY <span>SARPRAS</span></p>
+        </div>
+        <div class="username">
+            <div class="akun">
+                <div class="profil">
+                    <i class="fa-solid fa-user" style="size:50px;"></i>
+                </div>
+                <div class="nama">
+                    <h5>USERNAME</h5>
+                    <p>USERNAME</p>
+                </div>
+            </div>
+        </div>
+        <div class="pilihan">
+            <div class="back">
+                <a href="index.php">
+                    <i class="fa-solid fa-house-chimney"></i>
+                </a>
+            </div>
+            <div class="siswa">
+                <a href="tampilan_data_siswa.php">
+                    <i class="fa-solid fa-server"></i>
+                    DATA SISWA
+                </a>
+            </div>
+            <div class="barang">
+                <a href="tampilan_data_barang.php">
+                    <i class="fa-solid fa-server"></i>
+                    DATA BARANG
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form">
+        <h3>Tambah Data Siswa : </h3> 
+        <div class="bg">
+            <table>
+                <form action="simpan_siswa.php" method="post"> 
+                    <tr>
+                        <p>
+                            <label>
+                                <td>Id Siswa</td>
+                                <td> </td> 
+                                <td>:</td> 
+                                <td style="color:transparent;"> -</td>
+                            </label>
+                                <td><input type="varchar" name="id_siswa" required="required" style="height:30px; width: 100%;"></td>
+                        </p>
+                    </tr> 
+                    <tr>
+                        <p>
+                            <label>
+                                <td>Nama Siswa</td> 
+                                <td> </td>
+                                <td>:</td>
+                                <td style="color:transparent;"> -</td>
+                            </label>
+                                <td><input type="text" name="nama_siswa" style="height:30px; width: 100%;"></p></td>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label>
+                                <td>Kelas</td> 
+                                <td> </td>
+                                <td>:</td>
+                                <td style="color:transparent;"> -</td>
+                            </label>
+                            <td>
+                                <select name="kelas" style="height:30px; width: 100%;">
+                                    <option value="X">X</option>
+                                    <option value="XI">XI</option>
+                                    <option value="XII">XII</option>
+                                </select>
+                            </td>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label>
+                                <td>Jurusan</td> 
+                                <td> </td>
+                                <td>:</td> 
+                                <td style="color:transparent;"> -</td>
+                            </label>
+                                <td>
+                                    <select name="jurusan" style="height:30px; width: 100%;">
+                                        <option value="TJKT 1">TJKT 1</option>
+                                        <option value="TJKT 2">TJKT 2</option>
+                                        <option value="ANIMASI 1">ANIMASI 1</option>
+                                        <option value="ANIMASI 2">ANIMASI 2</option>
+                                        <option value="ANIMASI 3">ANIMASI 3</option>
+                                        <option value="ANIMASI 4">ANIMASI 4</option>
+                                        <option value="PPLG 1">PPLG 1</option>
+                                        <option value="PPLG 2">PPLG 2</option>
+                                        <option value="BRF">BRF</option>
+                                        <option value="TE">TE</option>
+                                    </select>
+                                </td>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label>
+                                <td>
+                                    Jenis kelamin
+                                </td> 
+                                <td></td>
+                                <td>:</td> 
+                                <td style="color:transparent;"> -</td>
+                            </label>
+                                <td style="text-align: center;"> 
+                                    <label><input type="radio" name="jenis_kelamin" value="laki-laki"/>L</label>
+                                    <label><input type="radio" name="jenis_kelamin" value="perempuan"/>P</label>
+                                </td>
+                        </p>
+                    </tr>
+                    <tr>
+                        <p>
+                            <label>
+                                <td>Email</td> 
+                                <td style="color:transparent;"> -</td>
+                                <td>:</td>
+                                <td style="color:transparent;"> -</td>
+                            </label>
+                                <td><input type="email" name="email" style="height:30px; width: 325px;"></td>
+                        </p>
+                    </tr>   
+                    <tr>
+                        <td colspan="5"><input class="submit" type="submit" name="simpan" value="simpan"></td>
+                    </tr>
+                </form>
+            </table>
+            <div class="kotak-img">
+                <div class="border">
+                    <div class="img">
+                        <img src="https://images.pexels.com/photos/1565245/pexels-photo-1565245.jpeg?cs=srgb&dl=pexels-victoria-akvarel-1565245.jpg&fm=jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

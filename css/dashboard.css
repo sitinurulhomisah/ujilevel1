@@ -1,0 +1,141 @@
+:root {
+    --accent : #8E3200;
+    --primary : #FFEBC1;
+    --secondary :#967E76;
+    --text : #5C5C5C;
+}
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.dashboard {
+    background-color: var(--secondary);
+    width: 20%;
+    height: 100vh;
+}
+.logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.logo p {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+}
+.logo p span {
+    color: var(--primary);
+}
+.username {
+    background-color: var(--primary);
+    opacity: 90%;
+    height: 80px;
+    width: 100%;
+}
+.akun {
+    height: 80px;
+    width: 90%;
+    margin-left: 10%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.username .profil {
+    background-color: var(--accent);
+    color: white;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.username .nama {
+    margin: 0;
+    padding: 0;
+    margin-left: -20px;
+    height: 50px;
+    width: 150px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: var(--accent);
+}
+.nama h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 19%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nama p {
+    margin-top: -5px;
+    margin-left: 24%;
+    font-size: 15px;
+}
+.pilihan {
+    height: 180px;
+    margin-top: 20px;
+}
+.back {
+    /* background-color: #8E3200; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back a {
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--primary);
+    font-size: 40px;
+}
+.back a:hover {
+    background-color: transparent;
+    -webkit-text-stroke: 3px var(--accent);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.siswa {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.siswa a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 20px;
+}
+.siswa a:hover {
+    background-color: transparent;
+    border: 2px solid var(--accent);
+    width: 200px;
+    height: 33px;
+    text-align: center;
+}
+.barang {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barang a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 18px;
+}
+.barang a:hover {
+    background-color: transparent;
+    border: 2px solid var(--accent);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
